@@ -28,6 +28,8 @@
     "library"
   ],
   "scripts": {
-    "publish": "npm publish --access public"
+    "publish:np": "np --branch=master --message=\"chore: :bookmark: Publish v%s tag\"",
+    "publish:np:false": "np --branch=master --message=\"chore: :bookmark: Publish v%s tag\" --publish=false",
+    "publish:npm": "npm publish --access public"
   }
 }
