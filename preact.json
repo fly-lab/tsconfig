@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Preact",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["es2015", "esnext"],
+    "module": "esnext",
+    "target": "esnext",
+    "jsxImportSource": "preact",
+    "types": ["preact"],
+    "allowJs": true
+  },
+  "include": ["src/**/*"]
+}

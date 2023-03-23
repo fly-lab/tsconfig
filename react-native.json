@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "React Native",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "jsx": "react-native",
+    "lib": ["dom", "dom.iterable", "es2015", "esnext"],
+    "module": "esnext",
+    "target": "es6",
+    "allowJs": true
+  },
+  "include": ["src"]
+}
