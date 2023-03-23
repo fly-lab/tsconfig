@@ -17,9 +17,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fly-lab/fly-projects.git"
+    "url": "https://github.com/fly-lab/tsconfig.git"
   },
-  "homepage": "https://github.com/fly-lab/fly-projects.git",
+  "homepage": "https://github.com/fly-lab/tsconfig.git",
   "keywords": [
     "typescript",
     "tsconfig",
