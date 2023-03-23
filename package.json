@@ -1,0 +1,33 @@
+{
+  "name": "@fly-lab/tsconfig",
+  "version": "2.3.0",
+  "author": "DHN Chandan",
+  "license": "MIT",
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "react.json",
+    "react-native.json",
+    "preact.json",
+    "node.json"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fly-lab/fly-projects.git"
+  },
+  "homepage": "https://github.com/fly-lab/fly-projects.git",
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "react typescript",
+    "nextjs typescript",
+    "library"
+  ],
+  "scripts": {
+    "publish": "npm publish --access public"
+  }
+}
