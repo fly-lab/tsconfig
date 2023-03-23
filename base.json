@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "compilerOptions": {
+    // type checking
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+
+    // modules
+    "allowUmdGlobalAccess": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    
+    // emit
+    "declaration": true,
+    "declarationMap": true,
+    "inlineSources": false,
+    "noEmit": true,
+
+    // interop constrains
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+
+    // language and environment
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    // projects
+    "composite": false,
+    "preserveWatchOutput": true,
+
+    // completeness
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"]
+}
