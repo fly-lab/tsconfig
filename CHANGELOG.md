@@ -1,5 +1,11 @@
 # @fly-lab/tsconfig
 
+## 3.0.1
+
+### Patch Changes
+
+- Unknown compiler option fixed
+
 ## 3.0.0
 
 ### Major Changes
